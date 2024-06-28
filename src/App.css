@@ -1,0 +1,61 @@
+body{
+  overflow-x: hidden;
+}
+
+
+form input[type = 'text']{
+  border-radius: 5px;
+  border: 1px solid #909090;
+  background-color: #FFFFFF;
+  padding: 5px 13px;
+  width: 50%;
+  
+  /* display: flex;
+  align-items: center;
+   justify-items:last baseline; */
+  
+}
+
+
+input[type='checkbox']:checked {
+  background-color: #FFFFFF;
+}
+input[type='checkbox']:checked:after {
+  content: '\2713';
+  color: #0069BF;
+}
+input[type='checkbox']{
+  text-align: center;
+  /* display: table-cell; */
+  vertical-align: middle;
+  width: 20px !important;
+  height: 20px !important;
+  appearance:none;
+  border-radius:10%;
+  border: 1px solid #0069BF;
+  box-shadow: none;
+  font-size: 1em;
+}
+
+  
+  form div{
+    margin-bottom: 10px;
+  }
+
+  form {
+  margin-bottom: 10px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+form label{
+  display: flex;
+  justify-content: flex-end;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+
+}
+
